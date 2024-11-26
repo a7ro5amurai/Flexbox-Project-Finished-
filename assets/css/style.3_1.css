@@ -1,0 +1,404 @@
+@font-face {
+    font-family: "Raleway-Var";
+    src: url("../fonts/Raleway-VariableFont_wght.ttf");
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 10px;
+    font-family: "Raleway-Var";
+}
+
+body{
+    width: 1512px;
+    height: 7000px;
+    margin: 0px auto;
+}
+
+header{
+    height: 76px;
+    width: 1512px;
+    font-size: 1.75rem;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    background-color: white;
+}
+
+
+a{
+    text-decoration: none;
+    color: #333;
+}
+
+.logo{
+    color: #666;
+    font-size: 2rem;
+}
+
+.logo:hover{
+    color: #333;
+}
+
+nav{
+    width: 1512px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10vw;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 2vw;
+}
+
+li a:hover{
+    color: #337ab7;
+}
+
+.First{
+    width: 1512px;
+    height: 1083.53px;
+    display: flex;
+    background-image: url("../img/1_Wellen.jpg");
+    background-size: auto 1007.52px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.First h1{
+    font-size: 7rem;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+.First h4{
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+}
+
+.First article button{
+    width: 200px;
+    height: 54px;
+}
+
+.First article button:first-child{
+    background-color: #745CF9;
+    border: none;
+}
+
+.First article button:first-child:hover {
+    border: 2px solid white;
+    background-color:transparent;
+    transition-delay: 100ms;
+}
+
+.First article button:last-child{
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.First article button:last-child:hover{
+    border: none;
+    background-color:#604dd0;
+    transition-delay: 100ms;
+}
+
+.First article button a{
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+.second{
+    display: flex;
+    width: 1512px;
+    height: 644.17px;
+    justify-content: center;
+    align-items: center;
+    gap: 127.5px;
+}
+
+.mac{
+    width: 652.5px;
+    height: 452.17px;
+}
+
+.mactext{
+    width: 360px;
+    height: 311px;
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.second h3{
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.second button{
+    width: 200px;
+    height: 54px;
+    background-color: #745CF9;
+    border: none;
+}
+
+.second button a{
+    color: white;
+}
+
+.second button:hover{
+    border: 2px solid black;
+    box-shadow: 0px 0px 5px;
+    color: black;
+    transition-delay: 100ms;
+}
+
+.second:last-child{
+    background-color: whitesmoke;
+}
+
+.third {
+    height: 438px;
+    margin-bottom: 96px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-image: url("../img/4_Wellen.jpg");
+
+}
+
+.third h1{
+    font-size: 7rem;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+
+.third p{
+    width: 1027.98px;
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+}
+
+.third button{
+    width: 200px;
+    height: 54px;
+    background-color: #745CF9;
+    border: none;
+}
+
+.third button a{
+    color: white;
+}
+
+.third button:hover{
+    border: 2px solid white;
+    background-color:transparent;
+    transition-delay: 100ms;
+}
+
+.forth {
+    height: 215px;
+    margin-bottom: 96px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    gap: 30px;
+
+
+}
+
+.forth h3{
+    font-size: 3.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.forth p{
+    width: 1027.98px;
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+.forth button{
+    width: 200px;
+    height: 54px;
+    background-color: #745CF9;
+    border: none;
+}
+
+.forth button a{
+    color: white;
+}
+
+.forth button:hover{
+    border: 2px solid black;
+    box-shadow: 0px 0px 5px;
+    color: black;
+    transition-delay: 100ms;
+}
+
+.sonne{
+    width: 100%;
+    height: 831.67px;
+    background-image: url("../img/5_Sonnenuntergang.jpg");
+    background-size: 1170px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.five{
+    margin-top: -2px;
+    width: 100%;
+    height: 1381.5px;
+    background-image: url("../img/6_Multi.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    padding-top: 96px;
+    color: white;
+}
+
+.five h3{
+    font-size: 3.5rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+.five p{
+    width: 1027.98px;
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+.six {
+    height: 467px;
+    margin-bottom: 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-image: url("../img/7_Himmel.jpg");
+
+}
+
+.six h3{
+    font-size: 3.5rem;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.six p{
+    width: 750px;
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: white;
+    text-align: center;
+}
+
+.six article{
+    width: 100px;
+    height: 100px;
+}
+
+.six img{
+    border-radius: 50%;
+}
+
+.random{
+    width: 100%;
+    margin-bottom: 63px;
+    display: flex;
+    justify-content: center;
+}
+
+.random h3{
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.Icons{
+    width: 100%;
+    height: 60px;
+    margin-bottom: 96px;
+    padding: 0 171px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.Icons article{
+    width: 60px;
+    height: 60px;
+}
+
+.download{
+    width: 100%;
+    height: 246px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    gap: 100px;
+}
+.download h3{
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.download button{
+    width: 262.5px;
+    height: 54px;
+    background-color: #745CF9;
+    border: none;
+}
+
+.download a{
+    color: white;
+}
+
+.download button:hover{
+    border: 2px solid black;
+    box-shadow: 0px 0px 5px;
+    color: black;
+    transition-delay: 100ms;
+}
+
+.end{
+    width: 100%;
+    height: 183px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding-left: 171px;
+}
+
+.end p{
+    font-size: 1.5rem;
+    color: white;
+}
